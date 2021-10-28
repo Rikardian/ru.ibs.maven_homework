@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Solution {
+public class Lower_case {
 
     public static void main(String[] args) {
         String text = "";
@@ -14,6 +14,6 @@ public class Solution {
             System.out.println("Введено невалидное значение");
         }
 
-        System.out.println(StringUtils.upperCase(text));
+        System.out.println(StringUtils.lowerCase(text));
     }
 }
