@@ -7,6 +7,10 @@ import java.io.InputStreamReader;
 public class Solution {
 
     public static void main(String[] args) {
-        System.out.println(StringUtils.upperCase(args[0]));
+        try {
+            System.out.println(StringUtils.upperCase(args[0]));
+        } catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("Вы не ввели строку");
+        }
     }
 }
